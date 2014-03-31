@@ -13,9 +13,9 @@ public class Test {
 			stmt.executeUpdate("DROP TABLE atom IF EXISTS");
 			stmt.executeUpdate(
 				"CREATE TABLE atom (" + 
-					"Z INT PRIMARY KEY COMMENT 'proton number'," +
-					"A INT COMMENT 'nucleon number'," +
-					"N INT COMMENT 'neutron number'," +
+					"z INT PRIMARY KEY COMMENT 'proton number'," +
+					"a INT COMMENT 'nucleon number'," +
+					"n INT COMMENT 'neutron number'," +
 					"symbol VARCHAR(2)" + 
 				")"
 			);

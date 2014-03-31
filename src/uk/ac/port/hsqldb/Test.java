@@ -10,7 +10,6 @@ public class Test {
 		Connection conn = SDBH.getConnection();
 		try {
 			Statement stmt = conn.createStatement();
-			stmt.executeUpdate("DROP TABLE test IF EXISTS");
 			stmt.executeUpdate("DROP TABLE atom IF EXISTS");
 			stmt.executeUpdate(
 				"CREATE TABLE atom (" + 

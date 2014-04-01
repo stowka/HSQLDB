@@ -13,7 +13,7 @@ public final class SDBH {
 	public static Connection connection;
 	private SDBH() {
 		String url = "jdbc:hsqldb:file:";
-		String database = "~/db/first"; // File that contains the database
+		String database = "~/db/first/first"; // File that contains the database
 		String driver = "org.hsqldb.jdbc.JDBCDriver";
 		String username = "SA";
 		String password = "";
